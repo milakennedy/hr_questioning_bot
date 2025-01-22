@@ -11,7 +11,7 @@ pc = Pinecone(
     environment="us-west1-gcp"
 )
 
-index_name = "hr-policy-index"
+index_name = "document-index"
 index = pc.Index(index_name)
 
 # Initialize Sentence-Transformer model
